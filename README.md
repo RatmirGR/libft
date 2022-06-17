@@ -2,7 +2,7 @@
 This project is about coding the C library, more specifically creating our own library. Its main purpose is to get an idea of ​​how the standard functions work, how they are implemented, and where they can be used.
 
 The project contains 43 functions:
-Of them:
+
 = 23 functions from the standard library:
   - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_isalpha.c">ft_isalpha</a> - Checks if a character is an alphabetic letter
   - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_isdigit.c">ft_isdigit</a> - checks if a character is a number
