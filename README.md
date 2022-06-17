@@ -42,8 +42,8 @@ The project contains 43 functions:
   - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_putnbr_fd.c">ft_putnbr_fd</a>
 
 = 9 functions for working with linked lists:
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstadd_back.c">ft_lstadd_back</a> - jumps forward in the list
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstadd_front.c">ft_lstadd_front</a> - navigates back through the list
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstadd_back.c">ft_lstadd_back</a> - goes to the end of the list
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstadd_front.c">ft_lstadd_front</a> - goes to the beginning of the list
   - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstclear.c">ft_lstclear</a> - clears the list
   - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstdelone.c">ft_lstdelone</a> -
   - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstiter.c">ft_lstiter</a> -
