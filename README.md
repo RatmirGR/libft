@@ -4,7 +4,7 @@ This project is about coding the C library, more specifically creating our own l
 The project contains 43 functions:
 
 = 23 functions from the standard library:
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_isalpha.c">ft_isalpha</a> - Checks if a character is an alphabetic letter
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_isalpha.c">ft_isalpha</a> - checks if a character is an alphabetic letter
   - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_isdigit.c">ft_isdigit</a> - checks if a character is a number
   - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_isalnum.c">ft_isalnum</a> - Checks if a character is an alphabetic letter or a number
   - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_isascii.c">ft_isascii</a> - checks if a character is an ascii character
