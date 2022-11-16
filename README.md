@@ -45,12 +45,13 @@ followed by a newline
 descriptor
 
 = 9 functions for working with linked lists:
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstadd_back.c">ft_lstadd_back</a> - goes to the end of the list
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstadd_front.c">ft_lstadd_front</a> - goes to the beginning of the list
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstclear.c">ft_lstclear</a> - clears the list
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstdelone.c">ft_lstdelone</a> -
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstiter.c">ft_lstiter</a> -
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstlast.c">ft_lstlast</a> -
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstmap.c">ft_lstmap</a> -
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstnew.c">ft_lstnew</a> - creates a new node
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstsize.c">ft_lstsize</a> - Gets the length of the linked list
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstadd_back.c">ft_lstadd_back</a> - adds the node ’new’ at the end of the list
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstadd_front.c">ft_lstadd_front</a> - adds the node ’new’ at the beginning of the list
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstclear.c">ft_lstclear</a> - deletes and frees the given node and every successor of that node, using the function ’del’ and free
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstdelone.c">ft_lstdelone</a> - takes as a parameter a node and frees the memory of the node’s content using the function ’del’ given as a parameter and free the node
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstiter.c">ft_lstiter</a> - iterates the list ’lst’ and applies the function
+’f’ on the content of each node
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstlast.c">ft_lstlast</a> - returns the last node of the list
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstmap.c">ft_lstmap</a> - iterates the list ’lst’ and applies the function ’f’ on the content of each node
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstnew.c">ft_lstnew</a> - allocates and returns a new node
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstsize.c">ft_lstsize</a> - counts the number of nodes in a list
