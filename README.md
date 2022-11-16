@@ -29,17 +29,20 @@ The project contains 43 functions:
   - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_strdup.c">ft_strdup</a> - returns a pointer to a null-terminated byte string, which is a duplicate of the string pointed to by str1
 
 = 11 functions for working with character strings, which are either not in the libc library, or they have a different shape
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_substr.c">ft_substr</a> - getting a substring
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_strjoin.c">ft_strjoin</a> - string join
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_strtrim.c">ft_strtrim</a> - trim spaces at the beginning and end of a string
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_split.c">ft_split</a> - split a string into arrays of strings by a given separator
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_itoa.c">ft_itoa</a> - convert number to string
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_strmapi.c">ft_strmapi</a>
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_striteri.c">ft_striteri</a>
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_putchar_fd.c">ft_putchar_fd</a>
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_putstr_fd.c">ft_putstr_fd</a>
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_putendl_fd.c">ft_putendl_fd</a>
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_putnbr_fd.c">ft_putnbr_fd</a>
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_substr.c">ft_substr</a> - allocates and returns a substring from the string ’s’. The substring begins at index ’start’ and is of maximum size ’len’
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_strjoin.c">ft_strjoin</a> - allocates and returns a new string, which is the result of the concatenation of ’s1’ and ’s2’
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_strtrim.c">ft_strtrim</a> - allocates and returns a copy of ’s1’ with the characters specified in ’set’ removed from the beginning and the end of the string
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_split.c">ft_split</a> - allocates and returns an array of strings obtained by splitting ’s’ using the character ’c’ as a delimiter
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_itoa.c">ft_itoa</a> - allocates and returns a string representing the integer received as an argument
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_strmapi.c">ft_strmapi</a> - applies the function ’f’ to each character of the string ’s’, and passing its index as first argument to create a new string resulting from successive applications of ’f’
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_striteri.c">ft_striteri</a> - applies the function ’f’ on each character of the string passed as argument, passing its index as first argument. Each character is passed by address to ’f’ to be modified if necessary
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_putchar_fd.c">ft_putchar_fd</a> - outputs the character ’c’ to the given file descriptor
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_putstr_fd.c">ft_putstr_fd</a> - outputs the string ’s’ to the given file
+descriptor
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_putendl_fd.c">ft_putendl_fd</a> - outputs the string ’s’ to the given file descriptor
+followed by a newline
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_putnbr_fd.c">ft_putnbr_fd</a> - outputs the integer ’n’ to the given file
+descriptor
 
 = 9 functions for working with linked lists:
   - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_lstadd_back.c">ft_lstadd_back</a> - goes to the end of the list
