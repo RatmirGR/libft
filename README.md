@@ -35,7 +35,6 @@ The project contains 43 functions:
   - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_split.c">ft_split</a> - split a string into arrays of strings by a given separator
   - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_itoa.c">ft_itoa</a> - convert number to string
  
- 
   - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_strmapi.c">ft_strmapi</a>
   - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_striteri.c">ft_striteri</a>
   - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_putchar_fd.c">ft_putchar_fd</a>
