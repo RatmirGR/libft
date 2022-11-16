@@ -18,15 +18,15 @@ The project contains 43 functions:
   - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_strlcat.c">ft_strlcat</a> - copies a string
   - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_toupper.c">ft_toupper</a> - convert characters to upper case
   - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_tolower.c">ft_tolower</a> - converts characters to lowercase
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_strchr.c">ft_strchr</a> -
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_strrchr.c">ft_strrchr</a> -
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_strncmp.c">ft_strncmp</a> -
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_memchr.c">ft_memchr</a> -
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_memcmp.c">ft_memcmp</a> -
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_strnstr.c">ft_strnstr</a> -
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_atoi.c">ft_atoi</a> -
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_calloc.c">ft_calloc</a> -
-  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_strdup.c">ft_strdup</a> -
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_strchr.c">ft_strchr</a> - searches for the first occurrence of the character c in the string pointed to by the argument str
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_strrchr.c">ft_strrchr</a> - searches for the last occurrence of the character c in the string pointed to, by the argument str
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_strncmp.c">ft_strncmp</a> - compares at most the first n bytes of str1 and str2
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_memchr.c">ft_memchr</a> - searches for the first occurrence of the character c in the first n bytes of the string pointed to, by the argument str
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_memcmp.c">ft_memcmp</a> - compares the first n bytes of memory area str1 and memory area str2
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_strnstr.c">ft_strnstr</a> - locates the first occurrence of the null-terminated string "little" in the null-terminated string "big"
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_atoi.c">ft_atoi</a> - converts the string argument str to an integer
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_calloc.c">ft_calloc</a> - allocates the requested memory, sets the allocated memory to zero, and returns a pointer to it
+  - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_strdup.c">ft_strdup</a> - returns a pointer to a null-terminated byte string, which is a duplicate of the string pointed to by str1
 
 = 11 functions for working with character strings, which are either not in the libc library, or they have a different shape
   - <a href="https://github.com/RatmirW/libft/blob/main/libft/ft_substr.c">ft_substr</a> - getting a substring
